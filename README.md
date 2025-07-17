@@ -3,6 +3,7 @@
 **Author:** Alessandro Frullo
 
 ![Python 3.11.9](https://img.shields.io/badge/python-3.11.9-blue.svg)
+[![Open Notebook](https://img.shields.io/badge/Open-Notebook-blue)](https://github.com/axeldotf/EEGMotorImagery/blob/main/AIMed_Project_Frullo.ipynb)
 
 ---
 
