@@ -42,8 +42,7 @@ Key features:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/<your‑username>/eeg‑motor‑imagery‑bci.git
-   cd eeg‑motor‑imagery‑bci
+   git clone https://github.com/axeldotf/EEGMotorImagery
 
 2. **Download dataset**
 
