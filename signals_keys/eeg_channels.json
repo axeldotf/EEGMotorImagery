@@ -1,0 +1,322 @@
+[
+    {
+        "Clean Label": "Fc5",
+        "Raw Label": "Fc5.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fc3",
+        "Raw Label": "Fc3.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fc1",
+        "Raw Label": "Fc1.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fcz",
+        "Raw Label": "Fcz.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fc2",
+        "Raw Label": "Fc2.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fc4",
+        "Raw Label": "Fc4.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "Fc6",
+        "Raw Label": "Fc6.",
+        "Brain Area": "Fronto-central"
+    },
+    {
+        "Clean Label": "C5",
+        "Raw Label": "C5..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "C3",
+        "Raw Label": "C3..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "C1",
+        "Raw Label": "C1..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "Cz",
+        "Raw Label": "Cz..",
+        "Brain Area": "Central midline"
+    },
+    {
+        "Clean Label": "C2",
+        "Raw Label": "C2..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "C4",
+        "Raw Label": "C4..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "C6",
+        "Raw Label": "C6..",
+        "Brain Area": "Central (motor area)"
+    },
+    {
+        "Clean Label": "Cp5",
+        "Raw Label": "Cp5.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cp3",
+        "Raw Label": "Cp3.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cp1",
+        "Raw Label": "Cp1.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cpz",
+        "Raw Label": "Cpz.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cp2",
+        "Raw Label": "Cp2.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cp4",
+        "Raw Label": "Cp4.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Cp6",
+        "Raw Label": "Cp6.",
+        "Brain Area": "Centro-parietal"
+    },
+    {
+        "Clean Label": "Fp1",
+        "Raw Label": "Fp1.",
+        "Brain Area": "Prefrontal"
+    },
+    {
+        "Clean Label": "Fpz",
+        "Raw Label": "Fpz.",
+        "Brain Area": "Prefrontal"
+    },
+    {
+        "Clean Label": "Fp2",
+        "Raw Label": "Fp2.",
+        "Brain Area": "Prefrontal"
+    },
+    {
+        "Clean Label": "Af7",
+        "Raw Label": "Af7.",
+        "Brain Area": "Anterior frontal"
+    },
+    {
+        "Clean Label": "Af3",
+        "Raw Label": "Af3.",
+        "Brain Area": "Anterior frontal"
+    },
+    {
+        "Clean Label": "Afz",
+        "Raw Label": "Afz.",
+        "Brain Area": "Anterior frontal"
+    },
+    {
+        "Clean Label": "Af4",
+        "Raw Label": "Af4.",
+        "Brain Area": "Anterior frontal"
+    },
+    {
+        "Clean Label": "Af8",
+        "Raw Label": "Af8.",
+        "Brain Area": "Anterior frontal"
+    },
+    {
+        "Clean Label": "F7",
+        "Raw Label": "F7..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F5",
+        "Raw Label": "F5..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F3",
+        "Raw Label": "F3..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F1",
+        "Raw Label": "F1..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "Fz",
+        "Raw Label": "Fz..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F2",
+        "Raw Label": "F2..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F4",
+        "Raw Label": "F4..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F6",
+        "Raw Label": "F6..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "F8",
+        "Raw Label": "F8..",
+        "Brain Area": "Frontal"
+    },
+    {
+        "Clean Label": "Ft7",
+        "Raw Label": "Ft7.",
+        "Brain Area": "Fronto-temporal"
+    },
+    {
+        "Clean Label": "Ft8",
+        "Raw Label": "Ft8.",
+        "Brain Area": "Fronto-temporal"
+    },
+    {
+        "Clean Label": "T7",
+        "Raw Label": "T7..",
+        "Brain Area": "Temporal"
+    },
+    {
+        "Clean Label": "T8",
+        "Raw Label": "T8..",
+        "Brain Area": "Temporal"
+    },
+    {
+        "Clean Label": "T9",
+        "Raw Label": "T9..",
+        "Brain Area": "Temporal"
+    },
+    {
+        "Clean Label": "T10",
+        "Raw Label": "T10.",
+        "Brain Area": "Temporal"
+    },
+    {
+        "Clean Label": "Tp7",
+        "Raw Label": "Tp7.",
+        "Brain Area": "Temporo-parietal"
+    },
+    {
+        "Clean Label": "Tp8",
+        "Raw Label": "Tp8.",
+        "Brain Area": "Temporo-parietal"
+    },
+    {
+        "Clean Label": "P7",
+        "Raw Label": "P7..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P5",
+        "Raw Label": "P5..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P3",
+        "Raw Label": "P3..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P1",
+        "Raw Label": "P1..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "Pz",
+        "Raw Label": "Pz..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P2",
+        "Raw Label": "P2..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P4",
+        "Raw Label": "P4..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P6",
+        "Raw Label": "P6..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "P8",
+        "Raw Label": "P8..",
+        "Brain Area": "Parietal"
+    },
+    {
+        "Clean Label": "Po7",
+        "Raw Label": "Po7.",
+        "Brain Area": "Parieto-occipital"
+    },
+    {
+        "Clean Label": "Po3",
+        "Raw Label": "Po3.",
+        "Brain Area": "Parieto-occipital"
+    },
+    {
+        "Clean Label": "Poz",
+        "Raw Label": "Poz.",
+        "Brain Area": "Parieto-occipital"
+    },
+    {
+        "Clean Label": "Po4",
+        "Raw Label": "Po4.",
+        "Brain Area": "Parieto-occipital"
+    },
+    {
+        "Clean Label": "Po8",
+        "Raw Label": "Po8.",
+        "Brain Area": "Parieto-occipital"
+    },
+    {
+        "Clean Label": "O1",
+        "Raw Label": "O1..",
+        "Brain Area": "Occipital (visual area)"
+    },
+    {
+        "Clean Label": "Oz",
+        "Raw Label": "Oz..",
+        "Brain Area": "Occipital"
+    },
+    {
+        "Clean Label": "O2",
+        "Raw Label": "O2..",
+        "Brain Area": "Occipital (visual area)"
+    },
+    {
+        "Clean Label": "Iz",
+        "Raw Label": "Iz..",
+        "Brain Area": "Inion (deep occipital)"
+    }
+]
