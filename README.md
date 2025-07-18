@@ -3,7 +3,10 @@
 **Author:** Alessandro Frullo
 
 ![Python 3.11.9](https://img.shields.io/badge/python-3.11.9-blue.svg)
-[![Open Notebook](https://img.shields.io/badge/Open-Notebook-blue)](https://github.com/axeldotf/EEGMotorImagery/blob/main/AIMed_Project_Frullo.ipynb)
+![VS Code 1.102.0.0](https://img.shields.io/badge/vscode-1.102.0.0-87CEEB.svg)
+
+[![AIMed_Project_Frullo.ipynb](https://img.shields.io/badge/AIMed_Project_Frullo.ipynb-00008B.svg)](https://github.com/axeldotf/EEGMotorImagery/blob/main/AIMed_Project_Frullo.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Open_in_Colab-orange.svg?logo=google-colab&logoColor=white)](https://colab.research.google.com/github/axeldotf/EEGMotorImagery/blob/main/AIMed_Project_Frullo.ipynb)
 
 ---
 
@@ -12,7 +15,7 @@
 
 ## Project Overview
 
-This repository implements an end‑to‑end machine learning pipeline for classifying EEG signals into **motor imagery** (imagined movement) vs. **rest** states. Accurate motor imagery detection is a key challenge in Brain–Computer Interface (BCI) research, with applications in neurorehabilitation and assistive technologies.
+This repository implements an end‑to‑end machine learning pipeline for classifying EEG signals into **motor imagery** (imagined movement) vs. **rest** states. Accurate motor imagery detection is a key challenge in **Brain–Computer Interface (BCI)** research, with applications in neurorehabilitation and assistive technologies.
 
 Key features:
 
@@ -25,34 +28,55 @@ Key features:
 - Modular utilities in `utils/step*_tools.py` and logging/plotting functions
 
 ## Repository Structure
-├── emmi_dataset/ # Raw EDF files (not included)
-│ ├── files/ # folder containing every subject files
-├── AIMed_Project_Frullo.ipynb # Main analysis notebook
-├── utils/
-│ ├── step1_tools.py # Data loading & epoch extraction
-│ ├── step2_tools.py # Feature extraction & plotting
-│ ├── step3_tools.py
-│ └── step4_tools.py # Model training & evaluation
-├── output_img/ # Generated figures (ROC, PR, SHAP, etc.)
-├── log/ # Run‑by‑run log files and metrics
-├── README.md # This file
-└── requirements.txt # Python dependencies
+```
 
+├── README.md                     # This file
+├── Frullo_AIMed_Report.pdf       # Project report
+├── AIMed_Project_Frullo.ipynb    # Project Notebook
+├── requirements.txt              # Python dependencies
+├── emmi_dataset/                 # Raw EDF files (not included)
+│ └── files/                      # Folder containing subject subfolders
+│  └── S001...                    # EDF files divided by subject
+├── saved_datasets/               # .npz and .pkl datasets (created during execution, not included)
+├── signals_keys/                 # .json for signal mapping (created during execution, not included)
+├── utils/                        # Utility modules
+│ ├── step1_tools.py              # Data loading & epoch extraction
+│ ├── step2_tools.py              # Feature extraction & plotting
+│ ├── step3_tools.py              # Model training & evaluation
+│ └── step4_tools.py              # Interpretability & visualization via SHAP
+├── output_img/                   # Generated figures (ROC, PR, SHAP, etc.)
+├── top_features_shap/            # Main features related data and figures
+└── log/                          # Run‑by‑run log files and metrics
+
+````
 
 ## Getting Started
 
-1. **Clone the repository**  
+Follow these steps to set up and explore the project:
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/axeldotf/EEGMotorImagery
+   git clone https://github.com/axeldotf/EEGMotorImagery.git
+   ````
 
-2. **Download dataset**
+2. **Download and extract the dataset**
 
-Register for and download the [EEG Motor Movement/Imagery Dataset v1.0.0 from PhysioNet](https://physionet.org/content/eegmmidb/1.0.0/). Extract the archive, name the folder `emmi_dataset` and place it in the working folder.
+   * Go to the [EEG Motor Movement/Imagery Dataset v1.0.0](https://physionet.org/content/eegmmidb/1.0.0/) on PhysioNet and download the archive.
+   * Extract the downloaded file to your local machine.
 
-4. **Open Notebook**
+3. **Prepare the dataset folder**
 
-Open the `.ipynb` file in the working folder to start analyzing the project.
+   * Rename the extracted dataset folder to `emmi_dataset`.
+   * Move `emmi_dataset` into the root of the cloned repository (the working folder).
+   * Review the ***Repository Structure*** section above to confirm the correct layout of files and folders.
 
+4. **Launch the notebook**
+
+   * **Locally**: Open `AIMed_Project_Frullo.ipynb` with Jupyter Notebook or VS Code and start exploring the data and code to follow the analysis pipeline.  
+   * **On Google Colab**:  
+     1. Click the “Open in Colab” badge.
+     2. Once the notebook loads, run the provided `Colab setup` cell to mount your Drive.  
+     3. Update the dataset path to point at your Drive‑mounted working folder (e.g. `/content/drive/MyDrive/AIMed_Project/`), then proceed with the analysis.
 
 ```text
 # requirements.txt
@@ -64,3 +88,4 @@ scikit-learn==1.6.1
 shap==0.48.0
 pyedflib==0.1.40
 tqdm==4.67.1
+```
