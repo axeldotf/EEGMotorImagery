@@ -15,7 +15,15 @@
 
 ## Project Overview
 
-This repository implements an end‑to‑end machine learning pipeline for classifying EEG signals into **motor imagery** (imagined movement) vs. **rest** states. Accurate motor imagery detection is a key challenge in **Brain–Computer Interface (BCI)** research, with applications in neurorehabilitation and assistive technologies.
+This repository implements an end‑to‑end machine learning pipeline for classifying EEG signals into **motor imagery** (imagined movement) vs. **rest** states. Accurate motor imagery detection is a key challenge in **Brain-Computer Interface (BCI)** research, with applications in neurorehabilitation and assistive technologies.
+
+<p align="center">
+  <img src="https://www.sify.com/wp-content/uploads/2024/03/brain_computer_interface_freepik.jpg"
+       alt="Brain-Computer Interface (BCI)" width="610" />
+  <img src="https://drive.google.com/uc?export=view&id=1Zloo6MGLD9dGHzN0yib4VXzSxLXvBxYy"
+       alt="Electrodes position map" width="330" />
+</p>
+
 
 Key features:
 
