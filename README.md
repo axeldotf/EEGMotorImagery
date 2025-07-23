@@ -41,20 +41,21 @@ Key features:
 ├── README.md                     # This file
 ├── Frullo_AIMed_Report.pdf       # Project report
 ├── AIMed_Project_Frullo.ipynb    # Project Notebook
+├── edf_reader.py                 # Tool used to visualize EDF+ files
 ├── requirements.txt              # Python dependencies
-├── emmi_dataset/                 # Raw EDF files (not included)
+├── emmi_dataset/                 # Raw EDF files (not included, download separately)
 │ └── files/                      # Folder containing subject subfolders
 │  └── S001...                    # EDF files divided by subject
-├── saved_datasets/               # .npz and .pkl datasets (created during execution, not included)
-├── signals_keys/                 # .json for signal mapping (created during execution, not included)
+├── saved_datasets/               # .npz and .pkl datasets (created during execution)
+├── signals_keys/                 # .json for signal mapping (created during execution)
 ├── utils/                        # Utility modules
 │ ├── step1_tools.py              # Data loading & epoch extraction
 │ ├── step2_tools.py              # Feature extraction & plotting
 │ ├── step3_tools.py              # Model training & evaluation
 │ └── step4_tools.py              # Interpretability & visualization via SHAP
-├── output_img/                   # Generated figures (ROC, PR, SHAP, etc.)
-├── top_features_shap/            # Main features related data and figures
-└── log/                          # Run‑by‑run log files and metrics
+├── output_img/                   # Generated figures (ROC, PR, SHAP, etc.) (created during execution)
+├── top_features_shap/            # Main features related data and figures (created during execution)
+└── log/                          # Run‑by‑run log files and metrics (created during execution)
 
 ````
 
