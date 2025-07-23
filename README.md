@@ -86,6 +86,52 @@ Follow these steps to set up and explore the project:
      2. Once the notebook loads, run the provided `Colab setup` cell to mount your Drive.  
      3. Update the dataset path to point at your Drive‑mounted working folder (e.g. `/content/drive/MyDrive/AIMed_Project/`), then proceed with the analysis.
 
+## EDF+ Visualization Tool (Signals & Annotations)
+
+To **manually inspect EDF+ files visually**, both raw signals and their **event/annotation tracks**, this repository includes a lightweight utility: `edf_reader.py`.
+
+### What it does
+- Loads EDF/EDF+ files (tested on PhysioNet EMMI data).
+- Plots selected channels over a chosen time window.
+- Displays and exports annotations (onset, duration, label).
+- Works **both from the command line _and_ via a simple GUI** (launch it with no arguments).
+- Optionally saves figures to `output_img/`.
+
+### Quick usage
+
+#### 1. Graphical mode (no arguments)
+```bash
+python edf_reader.py
+````
+A small GUI will open, just pick your EDF file, channels, time window, and whether to show/export annotations.
+
+#### 2. From command line
+
+```bash
+# Basic: plot first 10 seconds of all channels
+python edf_reader.py --edf emmi_dataset/files/S001/S001R01.edf --tstart 0 --tend 10
+
+# Pick specific channels and show annotations
+python edf_reader.py \
+  --edf emmi_dataset/files/S001/S001R01.edf \
+  --channels Fz,C3,C4 \
+  --show-annotations
+
+# Export annotations to CSV
+python edf_reader.py --edf ... --export-annots annots_S001R01.csv
+````
+
+| Flag                 | Description                                   | Default            |
+| -------------------- | --------------------------------------------- | ------------------ |
+| `--edf`              | Path to the EDF/EDF+ file                     | **required** (CLI) |
+| `--channels`         | Comma-separated list of channel names to plot | All channels       |
+| `--tstart`, `--tend` | Start/end time in seconds for plotting        | Entire recording   |
+| `--show-annotations` | Overlay annotations on the plot               | Off                |
+| `--export-annots`    | Path to save annotations as CSV               | None               |
+| `--outfig`           | Path to save the generated figure             | None               |
+
+---
+
 ```text
 # requirements.txt
 
